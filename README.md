@@ -1,4 +1,7 @@
 # CKBQA
+
+>**Update May 6th, 2021**:  our [paper](zhang2021namer_camera_ready.pdf) will appear at NAACL 2021 System Demonstration track, please check it out for more details on data annotations and evaluations.
+
 This repository contains a Chinese KBQA dataset expanded from CCKS CKBQA Competition Dataset.
 
 The validation dataset and training dataset are provided in this repository in json format. Each entry contains a question, its question id, its corresponding gold SPARQL, and the **struct** of the SPARQL. We define variable, entity, literal and type in SPARQL as **node**. The struct shows triples' **relation**s, the head and tail nodes of triples and their **mentions**, including start and end offsets. Besides, **filter** information is also contained in the struct.  
