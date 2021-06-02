@@ -1,8 +1,37 @@
 # CKBQA
 
->**Update May 6th, 2021**:  our [paper](zhang2021namer_camera_ready.pdf) will appear at NAACL 2021 System Demonstration track, please check it out for more details on data annotations and evaluations.
+>**Update June 2nd, 2021**:  add BibTex.
 
-This repository contains a Chinese KBQA dataset expanded from CCKS CKBQA Competition Dataset.
+>**Update May 6th, 2021**:  our [paper](zhang2021namer.pdf) will appear at [NAACL 2021 System Demonstration track](https://www.aclweb.org/anthology/2021.naacl-demos.3/), please check it out for more details on data annotations and evaluations.
+
+## Introduction
+
+This repository contains a Chinese KBQA dataset expanded from CCKS CKBQA Competition Dataset. We also provide a novel framework based on these additional annotations in a [paper](zhang2021namer.pdf), an online [demo](http://kbqademo.gstore.cn/) of such KBQA system is available, have fun to check it out!
+
+
+## Citation & Trouble Shooting
+
+Please contact us via *{zhangminhao, ry_zhang}@pku.edu.cn* if you have any questions or kindly cite the following paper if you find this resource helpful.
+
+```
+@inproceedings{zhang-etal-2021-namer,
+    title = "{NAMER}: A Node-Based Multitasking Framework for Multi-Hop Knowledge Base Question Answering",
+    author = "Zhang, Minhao  and
+      Zhang, Ruoyu  and
+      Zou, Lei  and
+      Lin, Yinnian  and
+      Hu, Sen",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Demonstrations",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-demos.3",
+    pages = "18--25",
+}
+```
+
+## Data Format
 
 The validation dataset and training dataset are provided in this repository in json format. Each entry contains a question, its question id, its corresponding gold SPARQL, and the **struct** of the SPARQL. We define variable, entity, literal and type in SPARQL as **node**. The struct shows triples' **relation**s, the head and tail nodes of triples and their **mentions**, including start and end offsets. Besides, **filter** information is also contained in the struct.  
 
