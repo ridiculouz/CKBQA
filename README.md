@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This repository contains a Chinese KBQA dataset expanded from CCKS CKBQA Competition Dataset. We also provide a novel framework based on these additional annotations in a [paper](zhang2021namer.pdf), an online [demo](http://kbqademo.gstore.cn/) of such KBQA system is available, have fun to check it out!
+This repository contains a Chinese KBQA dataset expanded from CCKS CKBQA Competition Dataset. We also provide a novel framework based on these additional annotations in a [paper](zhang2021namer.pdf), an online [demo](http://kbqademo.gstore.cn/) of such KBQA system is available, have fun checking it out!
 
 
 ## Citation & Trouble Shooting
